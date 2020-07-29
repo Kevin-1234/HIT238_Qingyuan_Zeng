@@ -4,24 +4,63 @@
     <meta charset="utf-8"/>
     <meta name="Description" content="This is the profile page of Qingyuan Zeng">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Profile-Qingyuan Zeng</title>
-    <style>
-    * {
-      justify-content: center;
-      text-align: center;
-    }
-    h1{font-size:8vw; }
-    h2{font-size:4vw;text-align: left;}
-    p{font-size:2.6vw;text-align: left;}
-
-    </style>
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
+    <title>Profile-Qingyuan Zeng</title>
   </head>
   <body>
-    <img>
-    <h1>Qingyuan Zeng<h1>
-    <h2>Course: </h2>
-    <p><strong>Bachelor of Information Technology</strong></p>
-    <h2>About：</h2>
-    <p><strong>Student at Charles Darwin University, enthusiastically pursuing a career in any IT industry</strong></p>
+    <div class = "info">
+      <h1>Qingyuan Zeng<h1>
+      <h2>Course: </h2>
+      <p><strong>Bachelor of Information Technology</strong></p>
+      <h2>About：</h2>
+      <p><strong>Student at Charles Darwin University, enthusiastically pursuing a career in any IT industry</strong></p>
+    </div>
+    <main class="quiz">
+      <h2>Answers to the quiz</h2>
+
+        <div class="question">
+          <h3>What is semantic HTML?</h3>
+          <p>Semantic HTML clearly describes its meaning to both the browser and the developer.</p>
+        </div>
+        <div class="question">
+          <h3>How do you import a stylesheet in to a HTML document?</h3>
+          <p>Include a reference to the external style sheet file inside the <link> element, inside the head section.<br/>Example: <span><</span>link rel="stylesheet" href="styles/subpage.css" type="text/css" /></p>
+        </div>
+        <div class="question">
+          <h3>How do you import javascript in to a HTML document</h3>
+          <p>Use script tag at the end of the end html file<br/> Example: <span><</span>script src="myscripts.js"></script></p>
+        </div>
+        <div class="question">
+          <h3>What meta tag can you use to fix the mobile screen width?</h3>
+          <p>'Viewpoint' meta tag. </p>
+        </div>
+        <div class="question">
+          <h3>How do you apply CSS only to certain screen sizes?</h3>
+          <p>That can be achieved by using Media Queries</p>
+        </div>
+        <div class="question">
+          <h3>What does mobile first mean when writing CSS?</h3>
+          <p>A mobile-first approach means that styles are applied first to mobile devices. Advanced styles and other overrides for larger screens are then added into the stylesheet via media queries.</p>
+        </div>
+        <div class="question">
+          <h3>How does a browser decide the order to apply CSS?</h3>
+          <p>A browser decides the order in a way that the most specific selector gets the highest precedence</p>
+        </div>
+        <div class="question">
+          <h3>Name three javascript best practices.</h3>
+          <p>1.Avoid Global Variables. 2.Initialize Variables. 3.Always Declare Local Variables</p>
+        </div>
+        <div class="question">
+          <h3>How do you run a javascript function when a button is pressed?</h3>
+          <p>Use 'addEventListener' method with 'click' and 'function name' as its parameter</p>
+        </div>
+        <div class="question">
+          <h3>What is the difference between == and === in javascript?</h3>
+          <p>The '==' comparison operator always converts (to matching types) before comparison while the '===' operator forces comparison of values and type</p>
+        </div>
+
+    </main>
+
+
   </body>
 </html>

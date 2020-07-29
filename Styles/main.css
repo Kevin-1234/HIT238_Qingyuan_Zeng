@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+}
+.info{
+  background-color: rgb(24, 40, 56);
+  color: rgb(218, 218, 218);
+}
+h1{
+  font-size:6vw;
+}
+h2{
+  font-size:4vw;
+  text-align: left;
+}
+h3{
+  font-size:3vw;
+  text-align: left;
+}
+p{
+  font-size:2.6vw;
+  text-align: left;
+}
+.quiz {
+  background-color: rgb(76, 33, 42);
+  color: rgb(218, 218, 218);
+  line-height: 3rem;
+}
+
+.quiz h2{
+  text-align: center;
+}
+.question{
+  margin-top:1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: rgb(70, 83, 98);
+}
+
+@media screen and (max-width: 850px) {
+  h1{font-size:8vw; }
+  h2{font-size:6vw;}
+  h3{font-size:5vw;}
+  p{font-size:3.8vw;}
+
+}
