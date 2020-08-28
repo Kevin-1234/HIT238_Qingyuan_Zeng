@@ -1,3 +1,4 @@
+console.log("hello")
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('/HIT238_Qingyuan_Zeng/sw.js').then(function(registration) {
