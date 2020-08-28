@@ -4,8 +4,8 @@ var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
   '/HIT238_Qingyuan_Zeng/',
   '/HIT238_Qingyuan_Zeng/Styles/main.css',
-  '/HIT238_Qingyuan_Zeng/script/main.js',
-  '/HIT238_Qingyuan_Zeng/manifest.json'
+  '/HIT238_Qingyuan_Zeng/script/main.js'
+
 
 ];
 
